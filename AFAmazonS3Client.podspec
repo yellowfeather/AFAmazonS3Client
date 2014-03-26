@@ -12,5 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = 'AFAmazonS3Client'
   s.requires_arc = true
 
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'AFNetworking', '~> 2.2'
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.8'
 end
